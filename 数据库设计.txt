@@ -1,0 +1,15 @@
+--一个老师开的一门课只能在一个地方上。一个班级。
+--学生信息表（学生id，年级，专业，用户名，密码，性别，年龄）
+Student(Sid,Snama,Sno,Spassword,Sgrade,Smajor,Ssex,Sbirth,role,Shometown)
+
+--管理员信息表（管理员id，用户名，密码）
+Manager(Mid,Mnamerole,Mpasswordd)
+
+--课程表（课程id，课程名，学期，学时,老师id）
+Class(Cid,Cname,Cterm,Cteacher)
+
+--上课时间的表
+Ctime(Cid,Cid,SCtime,Classroom)
+
+--选课表（选课id，课程id，学生id，成绩）
+SC(SCid,Sid,Cid,Grade)
